@@ -1,6 +1,44 @@
 # ESP32-CAM-Video-Telegram
 Record avi video on ESP32-CAM and send to Telegram on event or request
 
+<h2> Description </h2>
+
+This program runs on a simple ESP32-CAM module without a SD card installed, and will respond to Telegram requests to take a photo or video, and then send it to the Telegram server to arrive at your phone or computer.  If you set up an active-low PIR or radar sesnsor to pull down Pin 13, then it will take a photo and a video of the event that set off the PIR, and then a video afterwards.  The video can be "fast" at 25 frames-per-second, "med" at 8 fps, or "slow" at 2 fps.  The video is recorded in the psram of the ESP32-CAM module, so there is only about 3MB of space available, which means about 60 bright outdoor frames, or 150 dull bland frames.  So the videos will be about 3 seconds, 10 seconds, and 40 seconds long.  As well, it is set top play the fast video at half speed. the medium video at realtime, and the slow video at 5x speed, so your 40 seconds video will play in timelapse over 10 seconds or so.
+
+You could adjust the quality parameters of the framesize to get more frames for longer videos.  It is currently set up for VGA (640x480) and quality 10 (good, not great), so you could switch to QVGA (320x240) and quality 20 to get many more frames with the 3MB buffer.  The ov2640 camera and drivers also double in speed below CIF (400x296) size.  (I think that still works?)
+
+<h2> Demo </h2>
+
+As seen on Telegram screen: <br>
+
+<img src="./magpie.jpg">
+
+Click below to see DoorCam....avi as seen on Youtube - the picture here is the first frame of the avi, which is one frame after the jpeg sent to Telegram or about 40ms.  It does not go to Youtube automatically - I just did that as I cannot play a video from github site.  But you can download it below.
+
+[![Click to see on Youtube](http://img.youtube.com/vi/x4JaLOefIWA/hqdefault.jpg)](http://www.youtube.com/watch?v=x4JaLOefIWA "Magpie from Youtube")
+
+The file as served by Telegram:<br>
+
+https://github.com/jameszah/ESP32-CAM-Video-Recorder-samples/blob/master/ESP32-Cam-Telegram/DoorCam%202021-06-03%2014.47.52.avi
+  
+The file uploaded to Youtube - now converted to Youtube's formats:  
+https://youtu.be/x4JaLOefIWA
+
+Click to see the slow motion.<br>
+
+[![Click to see on Youtube](http://img.youtube.com/vi/KBXaL-kRRFI/hqdefault.jpg)](http://www.youtube.com/watch?v=KBXaL-kRRFI "Robin from Youtube")
+
+<h2> Controls </h2>
+
+
+If you put in your correct Telegram chat_id, you will get a message when the ESP32-CAM boots, and then the /start command will produce the following.  
+You can ask for a photo or a clip (photo plus avi), or reconfigure the ESP32 for different clip lengths, and disable the PIR, or disable the "avi", which means it will just send the photo and skip the avi.
+
+The 3MB clip can take a minute to send to the Telegram server, so you may want to shut if off at times.  I'm not sure how many 3MB avi's Telegram will store for you, or if they get annoyed if you send too many.  They also pile up on my Android phone, so you need to empty your Telegram history from time to time.
+
+<img src="./telegram.jpg">
+
+It defaults to PIR enabled, and avi enabled amd a "fast" 25fps 3 second video.
 
 <h2> Compile Time Parameters </h2>
 
@@ -18,21 +56,6 @@ String chat_id = "1234567890";
 // https://sites.google.com/a/usapiens.com/opnode/time-zones  
 ```
 
-As seen on Telegram screen: <br>
 
-<img src="./magpie.jpg">
 
-The avi as seen on Youtube - the picture here is the first frame of the avi, which is one frame after the jpeg sent to Telegram.
 
-[![Click to see on Youtube](http://img.youtube.com/vi/x4JaLOefIWA/hqdefault.jpg)](http://www.youtube.com/watch?v=x4JaLOefIWA "Magpie from Youtube")
-
-The file as served by Telegram:<br>
-
-https://github.com/jameszah/ESP32-CAM-Video-Recorder-samples/blob/master/ESP32-Cam-Telegram/DoorCam%202021-06-03%2014.47.52.avi
-  
-The file uploaded to Youtube - now converted to Youtube's formats:  
-https://youtu.be/x4JaLOefIWA
-
-Demonstrating the slow motion.<br>
-
-[![Click to see on Youtube](http://img.youtube.com/vi/KBXaL-kRRFI/hqdefault.jpg)](http://www.youtube.com/watch?v=KBXaL-kRRFI "Robin from Youtube")

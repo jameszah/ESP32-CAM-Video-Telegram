@@ -13,7 +13,7 @@ As seen on Telegram screen: <br>
 
 <img src="./magpie.jpg">
 
-Click below to see DoorCam....avi as seen on Youtube - the picture here is the first frame of the avi, which is one frame after the jpeg sent to Telegram or about 40ms.  It does not go to Youtube automatically - I just did that as I cannot play a video from github site.  But you can download it below.
+Click below to see DoorCam....avi as seen on Youtube - the picture here is the first frame of the avi, which is one frame after the jpeg sent to Telegram or about 40ms.  It does not go to Youtube automatically - I just did that as I cannot play a video from github site.  But you can download it below.  Telegram only handles mp4 files inline, so the avi just appears as a file.
 
 [![Click to see on Youtube](http://img.youtube.com/vi/x4JaLOefIWA/hqdefault.jpg)](http://www.youtube.com/watch?v=x4JaLOefIWA "Magpie from Youtube")
 
@@ -29,6 +29,7 @@ Click to see the 25 fps in slow motion.<br>
 [![Click to see on Youtube](http://img.youtube.com/vi/KBXaL-kRRFI/hqdefault.jpg)](http://www.youtube.com/watch?v=KBXaL-kRRFI "Robin from Youtube")
 
 Click to see the 2 fps in 5x timeslapse motion.  This is very dull light, meaning the frames are small and you get almost 2 minutes at 2 fps, and even then it hit the 150 frames limit, rather than the 3MB limit.<br>
+
 [![Click to see on Youtube](http://img.youtube.com/vi/Y0s_3u5maDU/hqdefault.jpg)](http://www.youtube.com/watch?v=Y0s_3u5maDU "Dull Timelapse")
 
 <h2> Controls </h2>

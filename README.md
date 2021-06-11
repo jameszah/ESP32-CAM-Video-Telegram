@@ -3,7 +3,7 @@ Record avi video on ESP32-CAM and send to Telegram on event or request
 
 <h2> Description </h2>
 
-This program runs on a simple ESP32-CAM module without a SD card installed, and will respond to Telegram requests to take a photo or video, and then send it to the Telegram server to arrive at your phone or computer.  If you set up an active-low PIR or radar sesnsor to pull down Pin 13, then it will take a photo and a video of the event that set off the PIR, and then a video afterwards.  The video can be "fast" at 25 frames-per-second, "med" at 8 fps, or "slow" at 2 fps.  The video is recorded in the psram of the ESP32-CAM module, so there is only about 3MB of space available, which means about 60 bright outdoor frames, or 150 dull bland frames.  So the videos will be about 3 seconds, 10 seconds, and 40 seconds long.  As well, it is set top play the fast video at half speed. the medium video at realtime, and the slow video at 5x speed, so your 40 seconds video will play in timelapse over 10 seconds or so.
+This program runs on a simple ESP32-CAM module without a SD card installed, and will respond to Telegram requests to take a photo or video, and then send it to the Telegram server to arrive at your phone or computer.  If you set up an active-high PIR or radar sesnsor to pull up Pin 13, then it will take a photo and a video of the event that set off the PIR, and then a video afterwards.  The video can be "fast" at 25 frames-per-second, "med" at 8 fps, or "slow" at 2 fps.  The video is recorded in the psram of the ESP32-CAM module, so there is only about 3MB of space available, which means about 60 bright outdoor frames, or 150 dull bland frames.  So the videos will be about 3 seconds, 10 seconds, and 40 seconds long.  As well, it is set top play the fast video at half speed. the medium video at realtime, and the slow video at 5x speed, so your 40 seconds video will play in timelapse over 10 seconds or so.
 
 You could adjust the quality parameters of the framesize to get more frames for longer videos.  It is currently set up for VGA (640x480) and quality 10 (good, not great), so you could switch to QVGA (320x240) and quality 20 to get many more frames with the 3MB buffer.  The ov2640 camera and drivers also double in speed below CIF (400x296) size.  (I think that still works?)
 
@@ -60,6 +60,10 @@ String chat_id = "1234567890";
 // https://sites.google.com/a/usapiens.com/opnode/time-zones  
 ```
 
+<h2> Hardware </h2>
 
+Hardware looks similar to the photos, samples over here.  
+Just remember it is gpio 13, active high PIR, and it makes sense to put a big capacitor between power and ground to cover currennt surges from the WiFi.
 
+https://github.com/jameszah/ESP32-CAM-Video-Recorder
 

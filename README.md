@@ -63,7 +63,7 @@ String chat_id = "1234567890";
 <h2> Hardware </h2>
 
 Hardware looks similar to the photos, samples over here.  
-Just remember it is gpio 13, active high PIR, and it makes sense to put a big capacitor between power and ground to cover currennt surges from the WiFi.
+Just remember it is gpio 13 with a big resistor (10 Kohm), active high PIR, and it makes sense to put a big capacitor between power and ground to cover currennt surges from the WiFi.
 
 https://github.com/jameszah/ESP32-CAM-Video-Recorder
 

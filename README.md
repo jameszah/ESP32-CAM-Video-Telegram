@@ -28,7 +28,7 @@ Click to see the 25 fps in slow motion.<br>
 
 [![Click to see on Youtube](http://img.youtube.com/vi/KBXaL-kRRFI/hqdefault.jpg)](http://www.youtube.com/watch?v=KBXaL-kRRFI "Robin from Youtube")
 
-Click to see the 2 fps in 5x timeslapse motion.  This is very dull light, meaning the frames are small and you get almost 2 minutes at 2 fps played over 15 seconds, and even then it hit the 150 frames limit, rather than the 3MB limit.<br>
+Click to see the 2 fps in 5x timeslapse motion.  This is very dull light, meaning the frames are small and you get over 1 minute at 2 fps played over 15 seconds, and even then it hit the 150 frames limit, rather than the 3MB limit.<br>
 
 [![Click to see on Youtube](http://img.youtube.com/vi/Y0s_3u5maDU/hqdefault.jpg)](http://www.youtube.com/watch?v=Y0s_3u5maDU "Dull Timelapse")
 

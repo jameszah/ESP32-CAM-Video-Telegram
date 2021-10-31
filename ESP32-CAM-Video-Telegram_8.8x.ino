@@ -991,7 +991,7 @@ bool init_wifi() {
   WRITE_PERI_REG(RTC_CNTL_BROWN_OUT_REG, brown_reg_temp);
 
   configTime(0, 0, "pool.ntp.org");
-  char tzchar[40];
+  char tzchar[80];
   TIMEZONE.toCharArray(tzchar, TIMEZONE.length());          // name of your camera for mDNS, Router, and filenames
   setenv("TZ", tzchar, 1);  // mountain time zone from #define at top
   tzset();

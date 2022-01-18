@@ -1,7 +1,10 @@
 # ESP32-CAM-Video-Telegram
 Record avi video on ESP32-CAM and send to Telegram on event or request
 
-Jan 12, 2022 - this used esp32-arduino 1.06 ... changes for esp32-arduino 2.02 coming shortly
+Jan 17, 2022  
+  
+ESP32-CAM-Video-Telegram_8.8x.ino works with Arduino 1.8.13 and esp32-arduino 1.60  
+ESP32-CAM-Video-Telegram_8.9x.ino works with Arduino 1.8.19 and esp32-arduino 2.0.2  
 
 <h2> Description </h2>
 

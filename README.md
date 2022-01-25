@@ -6,14 +6,6 @@ Jan 17, 2022
 ESP32-CAM-Video-Telegram_8.8x.ino --- Arduino 1.8.13 / esp32-arduino 1.6.0  
 ESP32-CAM-Video-Telegram_8.9x.ino --- Arduino 1.8.19 / esp32-arduino 2.0.2    
 
-Jan 24, 2022
-
-In response to an email query:  
-
-A telegram bot is like a person receiving and replying to messages.  The bot is a simple receive/reply system.  When it boots it sends one message to the hard-coded owner of the bot (10 digit number in chat_id), and thereafter it responds to anyone in the telegram universe that sends a message.  Obviously a little esp32 cannot respond to millions of messages, but anyone can send it a message.  This line below grabs the identity of the person sending a message, and uses that identity to send a message back.  You could delete this line, and it would always send messages back your hard-coded identiy.  Or check if the caller is you or one of your friends, and then reply to them, or ignore them.
-
-https://github.com/jameszah/ESP32-CAM-Video-Telegram/blob/87c9ffa764ef58648e143ca038c49ba51b8964bf/ESP32-CAM-Video-Telegram_8.9x.ino#L302
-
 
 <h2> Description </h2>
 
@@ -80,4 +72,15 @@ Hardware looks similar to the photos, samples over here.
 Just remember it is gpio 13 with a big resistor (10 Kohm), active high PIR, and it makes sense to put a big capacitor between power and ground to cover currennt surges from the WiFi.
 
 https://github.com/jameszah/ESP32-CAM-Video-Recorder
+
+---
+
+Jan 24, 2022 - question about bots
+
+In response to an email query:  
+
+A telegram bot is like a person receiving and replying to messages.  The bot is a simple receive/reply system.  When it boots it sends one message to the hard-coded owner of the bot (10 digit number in chat_id), and thereafter it responds to anyone in the telegram universe that sends a message.  Obviously a little esp32 cannot respond to millions of messages, but anyone can send it a message.  This line below grabs the identity of the person sending a message, and uses that identity to send a message back.  You could delete this line, and it would always send messages back your hard-coded identiy.  Or check if the caller is you or one of your friends, and then reply to them, or ignore them.
+
+https://github.com/jameszah/ESP32-CAM-Video-Telegram/blob/87c9ffa764ef58648e143ca038c49ba51b8964bf/ESP32-CAM-Video-Telegram_8.9x.ino#L302
+
 

@@ -22,6 +22,7 @@ As seen on Telegram screen: <br>
 Click below to see DoorCam....avi as seen on Youtube - the picture here is the first frame of the avi, which is one frame after the jpeg sent to Telegram or about 40ms.  It does not go to Youtube automatically - I just did that as I cannot play a video from github site.  But you can download it below.  Telegram only handles mp4 files inline, so the avi just appears as a file.
 
 [![Click to see on Youtube](http://img.youtube.com/vi/x4JaLOefIWA/hqdefault.jpg)](http://www.youtube.com/watch?v=x4JaLOefIWA "Magpie from Youtube")
+[![gif](https://media.giphy.com/media/Cm9930ondKHQihs1Zi/giphy.gif)]
 
 The file as served by Telegram:<br>
 

@@ -20,7 +20,7 @@ https://ko-fi.com/jameszah/
 4.  Timed Photos - set a timer in minutes 0->1440 to send photos to your telegram BOT
 5.  Very Slow Video - runs at 2 sec per frame to get a 5 minute ? timelapse video to your telegram
 6.  EPPROM - all your parameters are saved in EPROM, so it should boot back to the same configuration
-7.  PSRAM - now checks your available PSRAM, so 2MB and 8MB modules should not work
+7.  PSRAM - now checks your available PSRAM, so 2MB and 8MB modules should now work
 
 --------------
 <br/>

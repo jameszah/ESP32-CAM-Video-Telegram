@@ -7,8 +7,9 @@
           
           
 <h3>SourceCode</h3>
-
-  <a href="https://github.com/jameszah/ESP32-CAM-Video-Telegram/">https://github.com/jameszah/ESP32-CAM-Video-Telegram</a>      
+https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/
+https://github.com/jameszah/ESP32-CAM-Video-Telegram/tree/main/v9.5
+  <a href="https://github.com/jameszah/ESP32-CAM-Video-Telegram/tree/main/v9.5/">https://github.com/jameszah/ESP32-CAM-Video-Telegram/tree/main/v9.5/</a>      
      
        
 James Zahary - Oct 16, 2022      

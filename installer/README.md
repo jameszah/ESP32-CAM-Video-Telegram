@@ -2,7 +2,7 @@
 <h2>One Click Installer ESP32-CAM-Video-Telegram 9.5 </h2>
 
 <script type="module" src="https://unpkg.com/esp-web-tools@9.0.3/dist/web/install-button.js?module"></script>   
-<esp-web-install-button manifest="installer/manifest.json"></esp-web-install-button>   
+<esp-web-install-button manifest="manifest.json"></esp-web-install-button>   
                                                  
           
           

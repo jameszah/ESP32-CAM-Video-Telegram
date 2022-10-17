@@ -406,7 +406,7 @@ void handleNewMessages(int numNewMessages) {
       do_eprom_write();
     }
 
-    if (text == "/dis_avi") {
+    if (text == "/disavi") {
       avi_enabled = false;
       do_eprom_write();
     }

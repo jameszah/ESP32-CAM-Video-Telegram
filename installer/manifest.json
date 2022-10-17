@@ -1,0 +1,12 @@
+{
+  "name": "ESP32-CAM-Video-Telegram 9.5",
+  "new_install_prompt_erase": false,
+  "builds": [
+    {
+      "chipFamily": "ESP32",
+      "parts": [
+        { "path": "ESP32-CAM-Video-Telegram_9.5.ino.img", "offset": 0 }
+      ]
+    }
+  ]
+}

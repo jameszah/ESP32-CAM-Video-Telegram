@@ -1,10 +1,33 @@
 # ESP32-CAM-Video-Telegram
 Record avi video on ESP32-CAM and send to Telegram on event or request
 
+Oct 16, 2022
+
+<h5>One Click Installer</h5>
+https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/
+<h5>Source Code</h5>
+https://github.com/jameszah/ESP32-CAM-Video-Telegram/tree/main/v9.5/
+<h5>Free coffee</h5> 
+https://ko-fi.com/jameszah/
+<br/>
+<br/>
+                    
+<h4>Updates:</h4>
+
+1.  Arduino 1.8.19 / esp32-arduino 2.0.4
+2.  One-Click-Installer - you dont have to compile
+3.  WiFiManager - set your ssid, password, Telegram id and BOT id during your first boot
+4.  Timed Photos - set a timer in minutes 0->1440 to send photos to your telegram BOT
+5.  Very Slow Video - runs at 2 sec per frame to get a 5 minute ? timelapse video to your telegram
+6.  EPPROM - all your parameters are saved in EPROM, so it should boot back to the same configuration
+7.  PSRAM - now checks your available PSRAM, so 2MB and 8MB modules should not work
+
+--------------
+<br/>
 Jan 17, 2022  
-  
-ESP32-CAM-Video-Telegram_8.8x.ino --- Arduino 1.8.13 / esp32-arduino 1.6.0  
-ESP32-CAM-Video-Telegram_8.9x.ino --- Arduino 1.8.19 / esp32-arduino 2.0.2    
+<br/>  
+ESP32-CAM-Video-Telegram_8.8x.ino --- Arduino 1.8.13 / esp32-arduino 1.6.0    <br/>   
+ESP32-CAM-Video-Telegram_8.9x.ino --- Arduino 1.8.19 / esp32-arduino 2.0.2    <br/>     
 
 
 <h2> Description </h2>

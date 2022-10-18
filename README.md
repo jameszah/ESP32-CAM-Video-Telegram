@@ -22,6 +22,10 @@ https://ko-fi.com/jameszah/
 6.  EPPROM - all your parameters are saved in EPROM, so it should boot back to the same configuration
 7.  PSRAM - now checks your available PSRAM, so 2MB and 8MB modules should now work
 
+Bugs 
+
+1. use /dis_avi instead of /disavi as it says in the instructions, corrected in the code
+
 --------------
 <br/>
 Jan 17, 2022  

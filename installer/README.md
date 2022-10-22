@@ -5,7 +5,7 @@
 <esp-web-install-button manifest="manifest.json"></esp-web-install-button>   
               
          
-<h4>After installing:<h4>
+<h4>After installing:</h4>
 1.  conect your phone or computer to wifi device "deskpir"
 2.  goto ip 192.168.4.1
 3.  Enter you ssid and password, and your telegram bot id and telegram id, click save

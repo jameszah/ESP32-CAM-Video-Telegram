@@ -21,10 +21,8 @@ https://ko-fi.com/jameszah/
 5.  Very Slow Video - runs at 2 sec per frame to get a 5 minute ? timelapse video to your telegram
 6.  EPPROM - all your parameters are saved in EPROM, so it should boot back to the same configuration
 7.  PSRAM - now checks your available PSRAM, so 2MB and 8MB modules should now work
-
-Bugs 
-
-1. use /dis_avi instead of /disavi as it says in the instructions, corrected in the code
+8.  changes to wifiman timeouts - 5 minutes to connect to wifi, 5 minutes to resolve AP setup
+9.  changes to timed picture reset - reset timer with /entim or /nn 
 
 --------------
 <br/>

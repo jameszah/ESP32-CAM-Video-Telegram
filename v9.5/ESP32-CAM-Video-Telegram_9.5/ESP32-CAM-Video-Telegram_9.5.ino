@@ -153,10 +153,10 @@ WiFiManager wm;
 static const char vernum[] = "pir-cam 9.5.1";
 String devstr =  "deskpir";
 int max_frames = 300;
-framesize_t configframesize = FRAMESIZE_HD; //FRAMESIZE_VGA; // FRAMESIZE_ + QVGA|CIF|VGA|SVGA|XGA|SXGA|UXGA
+framesize_t configframesize = FRAMESIZE_VGA; // FRAMESIZE_ + QVGA|CIF|VGA|SVGA|XGA|SXGA|UXGA
 int frame_interval = 0;          // 0 = record at full speed, 100 = 100 ms delay between frames
 float speed_up_factor = 0.5;          // 1 = play at realtime, 0.5 = slow motion, 10 = speedup 10x
-int framesize = FRAMESIZE_HD; //FRAMESIZE_VGA; //FRAMESIZE_HD;
+int framesize = FRAMESIZE_VGA; //FRAMESIZE_HD;
 int quality = 10;
 int qualityconfig = 5;
 char def_BOTtoken[50];
@@ -1372,8 +1372,8 @@ void setup() {
 
   idx_buf_size = max_frames * 10 + 20;
 
-  //vga vi_buf_size = avail_psram - 500 * 1024; 
-  avi_buf_size = avail_psram - 900 * 1024; //hd
+  //vga avi_buf_size = avail_psram - 500 * 1024; 
+  avi_buf_size = avail_psram - 500 * 1024; //900 for hd, 500 for vga
   Serial.print("try to allocate "); Serial.println(avi_buf_size);
 
   psram_avi_buf = (uint8_t*)ps_malloc(avi_buf_size);

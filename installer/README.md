@@ -3,8 +3,9 @@
 
 <script type="module" src="https://unpkg.com/esp-web-tools@9.0.3/dist/web/install-button.js?module"></script>   
 <esp-web-install-button manifest="manifest.json"></esp-web-install-button>   
-<br\>                                                 
-After installing:
+              
+         
+<h4>After installing:<h4>
 1.  conect your phone or computer to wifi device "deskpir"
 2.  goto ip 192.168.4.1
 3.  Enter you ssid and password, and your telegram bot id and telegram id, click save

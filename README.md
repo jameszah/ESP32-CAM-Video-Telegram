@@ -23,6 +23,7 @@ https://ko-fi.com/jameszah/
 7.  PSRAM - now checks your available PSRAM, so 2MB and 8MB modules should now work
 8.  changes to wifiman timeouts - 5 minutes to connect to wifi, 5 minutes to resolve AP setup
 9.  changes to timed picture reset - reset timer with /entim or /nn 
+10.  add wifimanager option to select HD or VGA
 
 --------------
 <br/>

@@ -6,7 +6,7 @@ Oct 16, 2022
 <h5>One Click Installer</h5>
 https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/
 <h5>Source Code</h5>
-https://github.com/jameszah/ESP32-CAM-Video-Telegram/tree/main/v9.5/
+https://github.com/jameszah/ESP32-CAM-Video-Telegram/tree/main/v9.6/
 <h5>Free coffee</h5> 
 https://ko-fi.com/jameszah/
 <br/>

@@ -3,6 +3,11 @@
 
 https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/
 
+<h4>Before installing:</h4>
+ 1.  Connect esp32cam to your computer, and put it in programming mode      
+ 2.  Make sure you DO NOT have an arduino serial monitor running      
+ 3.  Click Connect, say yes, and it will erase and program the esp32cam      
+ 
 <script type="module" src="https://unpkg.com/esp-web-tools@9.0.3/dist/web/install-button.js?module"></script>   
 <esp-web-install-button manifest="manifest.json"></esp-web-install-button>   
               

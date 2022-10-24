@@ -1,13 +1,13 @@
 
 <h2>One Click Installer ESP32-CAM-Video-Telegram 9.6 </h2>
 
-https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/
+<a href="https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/">https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/</a>
 
 <h4>Before installing:</h4>
   1.  Connect esp32cam to your computer, and put it in programming mode      
   2.  Make sure you DO NOT have an arduino serial monitor running      
   3.  Click Connect, say yes, and it will erase and program the esp32cam      
-  4.  Lengthy Instructions here: <a href="[https://ko-fi.com/jameszah](https://jameszah.github.io/ESP32-CAM-VideoCam/instruct)">[https://ko-fi.com/jameszah/](https://jameszah.github.io/ESP32-CAM-VideoCam/instruct)</a>  
+  4.  Lengthy Instructions here: <a href="https://jameszah.github.io/ESP32-CAM-VideoCam/instruct">https://jameszah.github.io/ESP32-CAM-VideoCam/instruct</a>  
 
 <script type="module" src="https://unpkg.com/esp-web-tools@9.0.3/dist/web/install-button.js?module"></script>   
 <esp-web-install-button manifest="manifest.json"></esp-web-install-button>   

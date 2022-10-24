@@ -14,14 +14,14 @@
               
          
 <h4>After installing:</h4>
-  1.  connect your phone or computer to wifi device "deskpir"
-  2.  goto ip 192.168.4.1      
+  -  connect your phone or computer to wifi device "deskpir"
+  -  goto ip 192.168.4.1      
 
 ![image](https://user-images.githubusercontent.com/36938190/197415599-c81690fa-3948-4fe7-86ab-86ed3ca8f181.png)
-  3.  Enter you ssid and password, and your telegram bot id and telegram id, and hd/vga click save
+  -  Enter you ssid and password, and your telegram bot id and telegram id, and hd/vga click save
 
 ![image](https://user-images.githubusercontent.com/36938190/197415610-52ecf0e4-98ea-4b4c-a443-cd6294ca1589.png)
-  4.  goto your telegram to control the bot
+  -  goto your telegram to control the bot
 
 ![image](https://user-images.githubusercontent.com/36938190/197415724-e0a9573a-701f-4d42-a206-b958972be5b3.png)
 

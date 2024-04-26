@@ -1,7 +1,7 @@
 
 <h2>One Click Installer ESP32-CAM-Video-Telegram 9.6 </h2>
 
-<a href="https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/">https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/</a>
+<a href="https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/README11.md">https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/README11.md</a>
 
 <h4>Before installing:</h4>
   1.  Connect esp32cam to your computer, and put it in programming mode      

@@ -1,6 +1,21 @@
 # ESP32-CAM-Video-Telegram
 Record avi video on ESP32-CAM and send to Telegram on event or request
 
+Apr 26, 2024
+<h3>Click below for a new version</h3>
+
+- will work without internet
+ 
+- will save to sd card
+ 
+- radu made for 4 second limelapse in very low light
+
+- can access from local internet from http://192.168.4.1/ or with router http://192.168.1.99/
+- local access to change ssids, or capture image, clip to telegram/sd, or local image to motioneye, browser, etc 
+ 
+https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/
+
+<h3> Previous Version</h3>
 Oct 16, 2022
 
 <h5>One Click Installer</h5>

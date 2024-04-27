@@ -13,7 +13,7 @@ Apr 26, 2024
 - can access from local internet from http://192.168.4.1/ or with router http://192.168.1.99/
 - local access to change ssids, or capture image, clip to telegram/sd, or local image to motioneye, browser, etc 
  
-https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/
+https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/README11
 
 <h3> Previous Version</h3>
 Oct 16, 2022

@@ -1,7 +1,7 @@
 
 <h2>One Click Installer ESP32-CAM-Video-Telegram 9.6 </h2>
 
-<a href="https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/README11.md">https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/README11.md</a>
+<a href="https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/README11">https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/README11</a>
 
 <h4>Before installing:</h4>
   1.  Connect esp32cam to your computer, and put it in programming mode      
@@ -24,8 +24,8 @@
 
 <h3>SourceCode</h3>
 
-  <a href="https://github.com/jameszah/ESP32-CAM-Video-Telegram/tree/main/v9.6/">https://github.com/jameszah/ESP32-CAM-Video-Telegram/tree/main/v9.6/</a>      
+  <a href="https://github.com/jameszah/ESP32-CAM-Video-Telegram/tree/main/v11/">https://github.com/jameszah/ESP32-CAM-Video-Telegram/tree/main/v11/</a>      
      
        
-James Zahary - Oct 22, 2022      
+James Zahary - Apr 26, 2024      
 Free coffee <a href="https://ko-fi.com/jameszah">https://ko-fi.com/jameszah/</a>    

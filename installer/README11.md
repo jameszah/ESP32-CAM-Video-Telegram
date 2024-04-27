@@ -1,5 +1,5 @@
 
-<h2>One Click Installer ESP32-CAM-Video-Telegram 9.6 </h2>
+<h2>One Click Installer ESP32-CAM-Video-Telegram 11 </h2>
 
 <a href="https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/README11">https://jameszah.github.io/ESP32-CAM-Video-Telegram/installer/README11</a>
 
@@ -18,6 +18,38 @@
 <h4>After installing:</h4>
   -  connect your phone or computer to wifi device "deskpir"
   -  goto ip 192.168.4.1      
+
+<kbd>
+<img src=".//esp32-cam-video-telegram0.png" >
+</kbd>
+<br>  -  initial display
+<br>
+<kbd>
+<img src=".//esp32-cam-video-telegram1.png" >
+</kbd>
+<br>  -  initial display
+<br>
+<kbd>
+<img src=".//esp32-cam-video-telegram2.png" >
+</kbd>
+<br>  -  initial display
+<br>
+<kbd>
+<img src=".//esp32-cam-video-telegram3.png" >
+</kbd>
+<br>  -  initial display
+<br>
+<kbd>
+<img src=".//esp32-cam-video-telegram4.png" >
+</kbd>
+<br>  -  initial display
+<br>
+<kbd>
+<img src=".//esp32-cam-video-telegram5.png" >
+</kbd>
+<br>  -  initial display
+<br>
+
 
 
 

@@ -38,7 +38,7 @@
 <kbd>
 <img src=".//esp32-cam-video-telegram2.png" >
 </kbd>
-<br>  -  all the days of photo/video
+<br>  -  all the days of photo/video - click date to see photo video
 <br>
 <kbd>
 <img src=".//esp32-cam-video-telegram3.png" >

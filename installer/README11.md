@@ -23,31 +23,37 @@
 <img src=".//esp32-cam-video-telegram0.png" >
 </kbd>
 <br>  -  initial display
+  - change ssidap/pass if you want 
+  - enter ssid/pass or 3
+  - enter telegram id, and bot name string
+  - select VGA or HD, enter timezone
+  - SAVE the settings
+  - and reboot
 <br>
 <kbd>
 <img src=".//esp32-cam-video-telegram1.png" >
 </kbd>
-<br>  -  initial display
+<br>  -  file download from sd to local computer phone
 <br>
 <kbd>
 <img src=".//esp32-cam-video-telegram2.png" >
 </kbd>
-<br>  -  initial display
+<br>  -  all the days of photo/video
 <br>
 <kbd>
 <img src=".//esp32-cam-video-telegram3.png" >
 </kbd>
-<br>  -  initial display
+<br>  -  all the photo video for a day, click on name to download
 <br>
 <kbd>
 <img src=".//esp32-cam-video-telegram4.png" >
 </kbd>
-<br>  -  initial display
+<br>  -  a video has an "E" edit option
 <br>
 <kbd>
 <img src=".//esp32-cam-video-telegram5.png" >
 </kbd>
-<br>  -  initial display
+<br>  -  here you look inside the video and and select from clicking scrollbar
 <br>
 
 
